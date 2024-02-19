@@ -86,13 +86,13 @@ The primary goals for the chat application are to provide:
 - DISCLAIMER: ***Large Language Models can Hallucinate***
 
 ## To-Do
-- Seperate login and authentication with Sendbird (backend services like Supabase)
-- Query Group Channel list and display on the left
-- List Users and Invite to Group Channel
-- Search user messages
-- Delivered Indicator 
-- Autoscroll Messages 
-- UI enhancement (Login page, Avatar)
-- PubMed bot Enhancement with non-PubMed sources (web and APIs)
-- User Query and Interests Memory bank (backend)
+- [ ] Seperate login and authentication with Sendbird (backend services like Supabase)
+- [ ] Query Group Channel list and display on the left
+- [ ]List Users and Invite to Group Channel
+- [ ]Search user messages
+- [ ]Delivered Indicator 
+- [ ]Autoscroll Messages 
+- [ ]UI enhancement (Login page, Avatar)
+- [ ]PubMed bot Enhancement with non-PubMed sources (web and APIs)
+- [ ]User Query and Interests Memory bank (backend)
 
