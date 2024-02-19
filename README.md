@@ -48,7 +48,7 @@ The primary goals for the chat application are to provide:
 
 - **Real-time Interaction**: Instant updates for messages and typing indicators to reflect live conversation dynamics.
 - **User-Centric Experience**: Support for user logins and personalized message displays.
-- **Group Chat Functionality**: Enabling users and bots to create and engage in group chats for collaborative communication.
+- **Group Chat Functionality**: Enabling users and bots to create channels and engage in group chats.
 - **PubMed Chatbot Integration**: Seamlessly integrate a PubMed chatbot as a user within the Sendbird platform, enabling users to interact with PubMed via Function Calls without the need for backend development (eg. Python).
 
 ## Key Design Decisions
@@ -67,7 +67,7 @@ The primary goals for the chat application are to provide:
 
 - Integrates a PubMed chatbot directly within the Sendbird platform, treating it as a bot to facilitate direct interaction with PubMed data.
 - Eliminates the need for separate backend services for the chatbot, simplifying the architecture and reducing development overhead. 
-- Created using Sendbird's new AI Chatbot feature
+- Created using Sendbird's new AI Chatbot feature [Link](https://sendbird.com/docs/ai-chatbot/guide/v1/sendbird-dashboard/sendbird-dashboard-overview)
 
 ## Core v1 functionalities 
 
@@ -79,9 +79,9 @@ The primary goals for the chat application are to provide:
 
 ## How to use PUBY 
 - Ask for {topics} and PUBY will provide list of unique PMID 
-- PMIDs are used to query for Abstract Summaries
-- Can ask to fetch defails about an article (eg. authors)
-- Warning: ***Large Language Models can Hallucinate***
+- Use PMIDs to query for Abstract Summaries
+- Use PMIDs to fetch defails about an article (eg. authors)
+- DISCLAIMER: ***Large Language Models can Hallucinate***
 
 ## To-Do
 - Seperate login and authentication with Sendbird (backend services like Supabase)
