@@ -36,7 +36,7 @@ To run the chat application locally, follow these steps:
 By Default App runs on http://localhost:3000 
 
 5. **Login to the chat**
-Enter a user ID in the login input field and click the "Login" button to connect to Sendbird Server and start chatting with PubMed Bot "Puby".
+Enter a user ID in the login input field and click the "Login" button to connect to Sendbird Server and start chatting with PubMed Bot "PUBY".
 
 **IMPORTANT**: Available demo credentials are ***wonbae***, ***mingee***. No passwords required. These users have existing chat converations to display past messages.  
 
@@ -77,12 +77,17 @@ The primary goals for the chat application are to provide:
 - Retrieve message list for existing Group Channel (distinguishing sender messages)
 - Typing indicator for User/Bot 
 
-## 
+## How to use PUBY 
+- Ask for {topics} and PUBY will provide list of unique PMID 
+- PMIDs are used to query for Abstract Summaries
+- Can ask to fetch defails about an article (eg. authors)
+- Warning: ***Large Language Models can Hallucinate***
 
 ## To-Do
 - Seperate login and authentication with Sendbird (backend services like Supabase)
 - Query Group Channel list and display on the left
-- Search user messages using Sendbird SDK
+- Invite Users to Group Channel
+- Search user messages
 - Delivered Indicator 
 - UI enhancement (Login page, Avatar)
 - PubMed bot to interact with various sources (web and APIs)
