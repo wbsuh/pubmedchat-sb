@@ -1,0 +1,167 @@
+.navbar {
+  background-color: #007aff;
+  padding: 10px 20px;
+  color: white;
+  text-align: left;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.form-container {
+  width: 100%; 
+  max-width: 1000px;
+  margin-top: 10px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-card {
+  background: white;
+  padding: 10px; 
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+  margin: auto;
+}
+
+.login-input {
+  max-width: 300px; /* Adjust as needed */
+}
+
+.login-button {
+  width: auto; /* Adjust this to set a specific width if needed */
+}
+
+@media (max-width: 768px) {
+  .form-container {
+    margin-top: 5px; 
+  }
+}
+
+input[type="text"], button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007aff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Small screen / mobile adjustments */
+@media (max-width: 768px) {
+  .form-container {
+    margin-top: 10px;
+  }
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #777;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #007aff; /* Blue color for the button */
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0051a3;
+}
+
+button:focus {
+  outline: none;
+}
+
+.title {
+  background-color: #007aff; /* Theme color for header */
+  color: white; /* Text color for header */
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.message-list {
+  list-style: none;
+  padding: 10px;
+  height: 500px; /* Increased height */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9; /* Lighter background for the message list */
+}
+
+.send-message-form {
+  border-top: 1px solid #ddd; /* Separation line for input field */
+  padding: 10px;
+  background: #f4f4f4; /* Slightly different background for input area */
+}
+
+.send-message-form input {
+  width: calc(100% - 20px); /* Full width with padding */
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd; /* Subtle border for the input */
+  border-radius: 20px; /* Rounded corners for the input */
+  margin: 0; /* Reset margin */
+}
+
+.message-list li {
+  padding: 10px 15px;
+  margin-bottom: 8px; /* Reduced margin-bottom */
+  border-radius: 18px; /* Rounded corners for message bubbles */
+  max-width: 75%; /* Wider message bubbles */
+  position: relative; /* Position relative for pseudo-elements */
+}
+
+.message-sent,
+.message-received {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05); /* Subtle shadow for depth */
+}
+
+.message-sent {
+  background-color: #007aff; /* Blue background for sent messages */
+  color: white;
+  align-self: flex-end; /* Align to right for sent messages */
+  border-bottom-right-radius: 5px; /* Smaller rounded corner for the bottom right */
+}
+
+.message-received {
+  background-color: #e5e5ea; /* Light grey for received messages */
+  color: black;
+  align-self: flex-start; /* Align to left for received messages */
+  border-bottom-left-radius: 5px; /* Smaller rounded corner for the bottom left */
+}
+.typingMessage {
+  margin: 5px 0;
+  color: #a6a6a6; 
+  font-size: 0.85rem; 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; /* System-like font for a more native feel */
+}
