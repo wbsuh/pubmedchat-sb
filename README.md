@@ -40,7 +40,7 @@ Enter a user ID in the login input field and click the "Login" button to connect
 
 **IMPORTANT**: Available demo credentials are ***wonbae***. No passwords required. These users have existing chat converations to display past messages with PUBY.  
 
-**NOTE**: Group Channels are invite only and new users in v1 currently do NOT have the ability to invite users.   
+**NOTE**: Group Channels are invite only and new users in v1 currently do NOT have the ability to invite users. Logging with a new user id will create one automatically.   
 
 ## Goals of the Application
 
@@ -49,7 +49,7 @@ The primary goals for the chat application are to provide:
 - **Real-time Interaction**: Instant updates for messages and typing indicators to reflect live conversation dynamics.
 - **User-Centric Experience**: Support for user logins and personalized message displays.
 - **Group Chat Functionality**: Enabling users and bots to create channels and engage in group chats.
-- **PubMed Chatbot Integration**: Seamlessly integrate a PubMed chatbot as a user within the Sendbird platform, enabling users to interact with PubMed via Function Calls without the need for backend development (eg. Python).
+- **PubMed Chatbot Integration**: Seamlessly integrate a PubMed chatbot as a user within the Sendbird platform, enabling users to interact with PubMed via Function Calls without the need for complex backend development (eg. Python).
 
 ## Key Design Decisions
 
@@ -87,11 +87,12 @@ The primary goals for the chat application are to provide:
 
 ## To-Do
 - [ ] Secure login and authentication with Sendbird (backend services like Supabase for user management)
-- [ ] Query Group Channel list and display on the left
+- [ ] Query Group Channel list and display list
 - [ ] List Users and Invite to Group Channel
 - [ ] Search user messages
 - [ ] Delivered Indicator 
 - [ ] Autoscroll Messages 
+- [ ] Message Formatting for chatbot responses 
 - [ ] UI enhancement (Login page, Avatar)
 - [ ] PubMed bot Enhancement with non-PubMed sources (web, external DB & APIs)
 - [ ] User Query and Interests Memory bank (backend, redis)
