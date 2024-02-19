@@ -5,10 +5,10 @@ Chat and Search PubMed Articles with "PUBY" (Sendbird JS SDK)
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of [Node.js and npm](https://nodejs.org/).
+- Latest version of [Node.js and npm](https://nodejs.org/).
 - **For Mac users:** You can optionally use Homebrew to install Node.js and npm by running `brew install node`.
-- You have a basic understanding of terminal commands and JavaScript.
-- You have [Git](https://git-scm.com/) installed on your machine to clone the repository.
+- Basic understanding of terminal commands and JavaScript.
+- [Git](https://git-scm.com/) installed on your machine to clone the repository.
 
 ## How to install and run the code
 
@@ -23,7 +23,7 @@ To run the chat application locally, follow these steps:
     ```sh
     cd pubmedchat-sb
 
-3. **Navigate to the project directory:**
+3. **Install dependencies:**
 
     ```sh
     npm install
@@ -33,7 +33,7 @@ To run the chat application locally, follow these steps:
     ```sh
     npm start
 
-By Default App runs on http://localhost:3000 
+By Default, App runs on http://localhost:3000 
 
 5. **Login to the chat**
 Enter a user ID in the login input field and click the "Login" button to connect to Sendbird Server and start chatting with PubMed Bot "PUBY".
@@ -65,20 +65,20 @@ The primary goals for the chat application are to provide:
 
 ### PubMed Chatbot as a User
 
-- Integrates a PubMed chatbot directly within the Sendbird platform, treating it as a bot to facilitate direct interaction with PubMed data.
+- Integrates a PubMed chatbot directly within the Sendbird platform, treating it as a bot to facilitate direct interaction with PubMed data via API.
 - Eliminates the need for separate backend services for the chatbot, simplifying the architecture and reducing development overhead. 
 - Created using Sendbird's new AI Chatbot feature [Link](https://sendbird.com/docs/ai-chatbot/guide/v1/sendbird-dashboard/sendbird-dashboard-overview)
 
 ## Core v1 functionalities 
 
-- Basic Login with Sendbird User ID (No password)
+- Basic Login feature with Sendbird User ID (No password)
 - Create or Join Group Channel (if one does not exist)
-- Talk with PubMed Bot hosted in Sendbird and Powered by GPT-3.5 
+- Talk with PubMed Bot (PUBY) hosted in Sendbird and Powered by GPT-3.5 
 - Retrieve message list for existing Group Channel (distinguishing sender messages)
 - Typing indicator for User/Bot 
 
 ## How to use PUBY 
-- Ask for {topics} and PUBY will provide list of unique PMID 
+- Query {topics} and PUBY will provide list of unique PMID 
 - Use PMIDs to query for Abstract Summaries
 - Use PMIDs to fetch defails about an article (eg. authors)
 - Ask for list of Clinical Trials based on a query/topic
@@ -88,9 +88,11 @@ The primary goals for the chat application are to provide:
 ## To-Do
 - Seperate login and authentication with Sendbird (backend services like Supabase)
 - Query Group Channel list and display on the left
-- Invite Users to Group Channel
+- List Users and Invite to Group Channel
 - Search user messages
 - Delivered Indicator 
+- Autoscroll Messages 
 - UI enhancement (Login page, Avatar)
 - PubMed bot Enhancement with non-PubMed sources (web and APIs)
+- User Query and Interests Memory bank (backend)
 
