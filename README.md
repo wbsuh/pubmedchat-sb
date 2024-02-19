@@ -1,5 +1,5 @@
 # pubmedchat-sb
-Chat and Search PubMed bot ("PUBY") (Sendbird JS SDK)
+Chat and Search PubMed Articles with "PUBY" (Sendbird JS SDK)
 
 ## Prerequisites
 
@@ -15,30 +15,30 @@ Before you begin, ensure you have met the following requirements:
 To run the chat application locally, follow these steps:
 1. **Clone the repository:**
 
-sh
-git clone https://github.com/wbsuh/pubmedchat-sb.git
+    ```sh
+    git clone https://github.com/wbsuh/pubmedchat-sb.git
 
 2. **Navigate to the project directory:**
 
-sh
-cd pubmedchat-sb
+    ```sh
+    cd pubmedchat-sb
 
 3. **Navigate to the project directory:**
 
-sh
-npm install
+    ```sh
+    npm install
 
 4. **Start the application:**
 
-sh
-npm start
+    ```sh
+    npm start
 
 By Default App runs on http://localhost:3000 
 
 5. **Login to the chat**
 Enter a user ID in the login input field and click the "Login" button to connect to Sendbird Server and start chatting with PubMed Bot "Puby".
 
-**IMPORTANT**: Available demo credentials are wonbae, mingee. No passwords required.  
+**IMPORTANT**: Available demo credentials are ***wonbae***, ***mingee***. No passwords required. These users have existing chat converations to display past messages.   
 
 ## Goals of the Application
 
