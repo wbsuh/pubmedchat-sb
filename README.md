@@ -86,7 +86,7 @@ The primary goals for the chat application are to provide:
 - DISCLAIMER: ***Large Language Models can Hallucinate***
 
   ```html
-  <video src="https://github.com/wbsuh/pubmedchat-sb/blob/main/demo.mp4" c
+  <video src="https://github.com/wbsuh/pubmedchat-sb/blob/main/demo.mp4" controls="controls" style="max-width: 730px;"></video>
 
 
 
