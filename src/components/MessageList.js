@@ -1,4 +1,5 @@
 import React from 'react';
+import Markdown from 'react-markdown'
 
 function formatTimestamp(createdAt) {
   const date = new Date(createdAt);
@@ -13,7 +14,7 @@ function MessageList({ messages, currentUserId }) {
           <li key={message.messageId || index}
             className={message.isCurrentUser ? 'message-sent' : 'message-received'}>
             <div>
-              <strong>{message.sender.nickname || message.sender.userId}:</strong> {message.message}
+              <strong>{message.sender.nickname || message.sender.userId}:</strong> <Markdown>{message.message}</Markdown>
               <div style={{fontSize: '0.8rem', marginTop: '5px'}}>
                 Sent at {formatTimestamp(message.createdAt)}
               </div>

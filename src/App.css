@@ -115,6 +115,7 @@ button:focus {
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+  row-gap: 15px;
   background-color: #f9f9f9; /* Lighter background for the message list */
 }
 
@@ -135,22 +136,26 @@ button:focus {
 
 .message-list li {
   padding: 10px 15px;
-  margin-bottom: 8px; /* Reduced margin-bottom */
-  border-radius: 18px; /* Rounded corners for message bubbles */
-  max-width: 75%; /* Wider message bubbles */
-  position: relative; /* Position relative for pseudo-elements */
+  margin-bottom: 5px; 
+  border-radius: 18px; 
+  max-width: 75%;
+  position: relative; 
 }
 
 .message-sent,
 .message-received {
-  box-shadow: 0 1px 1px rgba(0,0,0,0.05); /* Subtle shadow for depth */
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05); 
 }
 
 .message-sent {
-  background-color: #007aff; /* Blue background for sent messages */
+  background-color: #007aff; 
   color: white;
-  align-self: flex-end; /* Align to right for sent messages */
-  border-bottom-right-radius: 5px; /* Smaller rounded corner for the bottom right */
+  align-self: flex-end; 
+  border-bottom-right-radius: 5px; 
+}
+
+.message-received p, .message-sent p {
+  margin: 0;
 }
 
 .message-received {
@@ -159,6 +164,11 @@ button:focus {
   align-self: flex-start; /* Align to left for received messages */
   border-bottom-left-radius: 5px; /* Smaller rounded corner for the bottom left */
 }
+
+
+
+
+
 .typingMessage {
   margin: 5px 0;
   color: #a6a6a6; 
