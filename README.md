@@ -85,6 +85,11 @@ The primary goals for the chat application are to provide:
 - Use National Clinical Trial (NCT) number to query Clinical Trial Details
 - DISCLAIMER: ***Large Language Models can Hallucinate***
 
+  ```html
+  <video src="https://github.com/wbsuh/pubmedchat-sb/blob/main/demo.mp4" c
+
+
+
 ## To-Do
 - [ ] Secure login and authentication with Sendbird (backend services like Supabase for user management)
 - [ ] Query Group Channel list and display list
