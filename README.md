@@ -78,7 +78,7 @@ The primary goals for the chat application are to provide:
 - Typing indicator for User/Bot 
 
 ## How to use PUBY 
-- Query {topics} and PUBY will provide list of unique PMID 
+- Query {topics} or {authors} and PUBY will provide list of unique PMID 
 - Use PMIDs to query for Abstract Summaries
 - Use PMIDs to fetch defails about an article (eg. authors)
 - Ask for list of Clinical Trials based on a query/topic
@@ -95,5 +95,4 @@ The primary goals for the chat application are to provide:
 - [ ] Message Formatting for chatbot responses 
 - [ ] UI enhancement (Login page, Avatar)
 - [ ] PubMed bot Enhancement with non-PubMed sources (web, external DB & APIs)
-- [ ] User Query and Interests Memory bank (backend, redis)
 
