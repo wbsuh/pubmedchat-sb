@@ -85,8 +85,7 @@ The primary goals for the chat application are to provide:
 - Use National Clinical Trial (NCT) number to query Clinical Trial Details
 - DISCLAIMER: ***Large Language Models can Hallucinate***
 
-  ![Video description](https://github.com/wbsuh/pubmedchat-sb/blob/main/demo.mp4)
-
+  <video src="https://github.com/wbsuh/pubmedchat-sb/blob/main/demo.mp4" controls="controls" style="max-width: 730px;"></video>
 
 
 ## To-Do
